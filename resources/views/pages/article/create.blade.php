@@ -48,7 +48,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-sm btn-secondary close-btn" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-sm btn-secondary close-btn" data-bs-dismiss="modal">Close</button>
                 <button type="button" wire:click.prevent="store()" class="btn btn-sm btn-success close-modal">Save</button>
             </div>
         </div>
